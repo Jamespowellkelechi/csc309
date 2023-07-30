@@ -20,7 +20,7 @@
     $email = $_POST['email'];
 
     $sql = "INSERT INTO users (firstname, lastname, gender, date_of_birth, email) 
-    VALUES ('Kelechi', 'Ogbonna', 'M', '2001-02-23', 'ogbonnabenneth3@gmail.com')";
+    VALUES ('Kelechi', 'CHUKWU', 'M', '2001-02-23', 'ogbonnabenneth3@gmail.com')";
 
     $result = $con->query($sql);
 
